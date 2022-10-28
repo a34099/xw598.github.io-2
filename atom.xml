@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FATE</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-10-28T14:51:09.855Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Cersei-cfc</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LeetCode算法每一天</title>
+    <link href="http://example.com/2022/10/23/java%E5%8A%9B%E6%89%A3/"/>
+    <id>http://example.com/2022/10/23/java%E5%8A%9B%E6%89%A3/</id>
+    <published>2022-10-23T03:04:56.582Z</published>
+    <updated>2022-10-28T14:51:09.855Z</updated>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p><h3 id="1-两数相加">1.两数相加</h3><p>描述：给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。</p><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target)</span><br><span class="line">   &#123;</span><br><span class="line">       <span class="type">int</span> l=nums.length;</span><br><span class="line">       <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span><span class="number">0</span>;i&lt;l;i++)</span><br><span class="line">       &#123;</span><br><span class="line">           <span class="keyword">for</span>(<span class="type">int</span> j=i+<span class="number">1</span>;j&lt;l;j++)</span><br><span class="line">           &#123;</span><br><span class="line">               <span class="keyword">if</span>(target==nums[i]+nums[j])</span><br><span class="line">               &#123;</span><br><span class="line">                   <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;i,j&#125;;</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">0</span>];</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h3 id=&quot;1-两数相加&quot;&gt;1.两数相加&lt;/h3&gt;
+&lt;p&gt;描述：给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。&lt;/p&gt;
+&lt;figure class=&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
